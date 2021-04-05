@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient( to left bottom, rgba(238, 192, 135, 0.9), rgba(255, 255, 255, 0.1));
+}
+.container {
+    width: 900px;
+    margin: auto;
+    height: 100vh; 
+    background: white;
+    background-color: rgb(238, 192, 135); 
+    
+    
+}
+.header {
+    padding: 30px 0 20px 40px;
+    background-color: rgb(238, 192, 135);
+    color:rgb(82, 71, 71);
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: normal;
+}
+.header h1 {
+    font-weight: normal;
+}
+.menu {
+    background: rgb(201, 175, 144);
+    padding: 30px 17px 30px 12px;
+    text-align: right; 
+}
+
+.menu a {
+    color:rgb(82, 71, 71);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+.menu a:hover {
+    color: gray;
+}
+
+aside {
+    float: left;
+    width: 300px;
+    padding: 130px 20px 30px 70px;
+}
+
+.main {
+    margin: 0 0 0 300px;
+    width: 400px;
+    padding: 100px 80px 60px 90px;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: justify;
+    color:rgb(82, 71, 71);
+    text-emphasis: justify;   
+}
+p::first-letter {
+    font-size: 40px;
+}
+
+#image img {
+    width: 80%;
+    border-radius: 10%;
+}
+
+.footer {
+    padding: 30px 0 20px 40px;
+    background-color: rgb(238, 192, 135);
+    color:rgb(82, 71, 71);
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: normal;
+    position:absolute;
+    bottom: -8px;
+    width: 860px;
+}
+
+/******************** About Page Styles ********************/
+.column img {
+   background-color: darkcyan;
+   width: 40%;
+   min-height: 20%;
+   float: left;
+   margin: 30px 20px 80px 50px; 
+   border-radius: 30px;  
+}
+.column img:hover {
+   color: #424242;
+  -webkit-transition: all .4s ease-in;
+  -moz-transition: all .4s ease-in;
+  -ms-transition: all .4s ease-in;
+  -o-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+  opacity: 1;
+  transform: scale(1.25);
+  -ms-transform: scale(1.25); /* IE 9 */
+  -webkit-transform: scale(1.25); /* Safari and Chrome */
+}
+
+
+
+/******************** Contact Page Styles ********************/
+h3 {
+    color: rgb(82, 71, 71);
+}
+.map {
+    padding: 80px 20px 10px 20px;
+}
